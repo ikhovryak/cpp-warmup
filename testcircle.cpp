@@ -5,7 +5,7 @@
 int main(int argc, char** argv)
 {
    Circle c1; 
-   Circle c2(10); 
+   Circle c2(10.0); 
    Circle c3 = c2;
    Circle c4 = c2 + c2;
 

@@ -11,6 +11,19 @@ int main(int argc, char** argv)
    cin >> Y;
    cin >> N;
 
-   // Your code here
+   for (int i = 1; i <= N; i++) {
+	   if (i % X == 0) {
+		   cout << "Fizz\n";
+	   }
+	   else if (i % Y == 0) {
+		   cout << "Buzz\n";
+	   }
+	   else if (i % X == 0 && i % Y == 0) {
+		   cout << "FizzBuzz\n";
+	   }
+	   else {
+		   cout << i << "\n";
+	   }
+   }
 }
 
